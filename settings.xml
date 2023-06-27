@@ -1,0 +1,16 @@
+<settings>
+   <!-- <mirrors>
+        <mirror>
+            <id>nexus</id>
+            <mirrorOf>*</mirrorOf>
+            <url>http://localhost:8091/repository/maven-public/</url>
+        </mirror>
+    </mirrors> -->
+    <mirrors>
+        <mirror>
+            <id>artifactory</id>
+            <mirrorOf>*</mirrorOf>
+            <url>http://localhost:8094/artifactory/libs-release/</url>
+        </mirror>
+    </mirrors>
+</settings>
